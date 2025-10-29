@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.game-board {
+  margin-right: 30px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.game-info {
+  font-size: 16px;
+}
+  
