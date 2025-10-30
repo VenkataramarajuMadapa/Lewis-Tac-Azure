@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Lewis-Tac-Toe</h1>
+      <h1>Lewis-Tac-Azure Demo</h1>
       <Game />
     </div>
   );
